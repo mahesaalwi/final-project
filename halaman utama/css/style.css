@@ -1,0 +1,25 @@
+body{
+    background-color: black;
+    background-size: cover;
+  
+    
+}
+
+.btn-1{
+    margin-right: 300px;
+}
+
+.txt-cov{
+    color: white;
+    margin-top: -100px;
+    margin-left: 18px;
+}
+
+@media only screen and (min-width: 600px) {
+    .txt-cov{
+        color: white;
+        margin-top: -500px;
+        margin-left: 40px;
+    }
+
+}

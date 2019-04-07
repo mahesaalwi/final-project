@@ -1,0 +1,115 @@
+body{
+    background-color: black;
+    background-size: cover;
+    
+}
+
+.nav-wrapper{
+    margin-right: 200px;
+  
+  background-color: transparent;
+  
+}
+
+
+.brand-logo{
+    margin-left: 100px;
+}
+
+
+
+.parallax-container{
+    height: 200px;
+}
+
+.slider h3,
+.slider h5,
+.client h3
+ {
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 1.11);
+    
+    margin-bottom: 60px
+
+}
+
+.parallax-container{
+    height: 440px;
+}
+
+.parallax img{
+    filter: grayscale(1);
+    opacity: 0.5 !important;
+}
+
+.client img{
+    max-width: 150px;
+    filter: drop-shadow(1px 1px 1px rgba(0,0,0,0.5));
+}
+
+.carousel img{
+  height: 200px;
+  width: 270px;
+   margin: 4px;
+    margin-left: -130px ;
+}
+
+
+section{
+    padding:20px 0; 
+}
+
+section, footer{
+    padding: 200px 0;
+
+}
+
+
+.img{
+    max-width: 100%;
+    height: auto;
+   
+   
+    padding: 5px;
+    width: 140px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -37px;
+}
+
+.responsive-img{
+    border-radius: 20px;
+}
+
+.icon{
+    margin-left: 144px;
+    
+    
+}
+
+.fab{
+    
+    margin:4px;
+}
+
+#progress{
+    width: 200px;
+    
+}
+
+@media only screen and (min-width: 768px) {
+    .icon{
+        margin-left: 420px;
+        
+        
+    }
+    
+    .fab{
+        margin:4px;
+    }
+    
+       #progress{
+           width: 100%;
+           
+       }
+}
